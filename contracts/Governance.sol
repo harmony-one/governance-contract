@@ -20,11 +20,11 @@ contract Governance is
     ) Governor("Governor") GovernorVotes(_token) GovernorVotesQuorumFraction(4) GovernorTimelockControl(_timelock) {}
 
     function votingDelay() public pure override returns (uint256) {
-        return 6575; // 1 day
+        return 43200; // 1 day
     }
 
     function votingPeriod() public pure override returns (uint256) {
-        return 46027; // 1 week
+        return 302400; // 1 week
     }
 
     function proposalThreshold() public pure override returns (uint256) {
