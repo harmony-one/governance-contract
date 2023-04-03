@@ -9,7 +9,7 @@ const deployGovernance = async (hre) => {
 
     await deploy("Governance", {
         from: deployer,
-        args: [minDelay, voteToken.address, governanceTimelockController.address],
+        args: [voteToken.address, governanceTimelockController.address],
         log: true,
     });
 };

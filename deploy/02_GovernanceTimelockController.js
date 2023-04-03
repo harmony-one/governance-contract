@@ -6,7 +6,7 @@ const deployGovernanceTimelockController = async (hre) => {
 
     await deploy("GovernanceTimelockController", {
         from: deployer,
-        args: [minDelay, [], []],
+        args: [minDelay, [], [], deployer],
         log: true,
     });
 };
