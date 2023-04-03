@@ -11,6 +11,9 @@ artifacts
 .openzeppelin/unknown-31337.json
 bin
 
+#Deployment files
+deployments/localhost
+
 #Coverage
 coverage
 coverage.json
